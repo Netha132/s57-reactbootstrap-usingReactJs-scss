@@ -1,0 +1,38 @@
+
+.logo{
+    width: 150px;
+    filter:invert(100);
+    padding-left: 10px;
+}
+$body-bg:rgb(242, 236, 236);
+.dineLogo{
+    width: 30px;
+}
+$navbar-padding-y:20px;
+$navbar-padding-x:20px;
+
+
+.bread{
+    padding-left: 30px; 
+    padding: 20px;
+    margin-left: 10px;
+}
+
+$breadcrumb-divider-color:  red;
+$breadcrumb-active-color: black;
+$breadcrumb-font-size:0.9rem;
+
+$nav-link-color:  rgb(98, 96, 96);
+$nav-link-hover-color: red;
+$nav-link-font-size: 1.3rem;
+.eveNav{
+    margin-left: 20px;
+}
+.foodImg{
+    width: 100px;
+}
+.loginDiv{
+    background-image: url(./images/loginbg.jpg);
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
